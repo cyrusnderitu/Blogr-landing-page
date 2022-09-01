@@ -369,7 +369,7 @@ footer{
         color: var(--title-color);
     }
     p{
-        font-size: 14px;
+        font-size: 12px;
         margin-bottom: 1rem;
         width: 95%;
     }
@@ -435,7 +435,7 @@ footer{
     }
     .state_desc{
         color: var(--white-text);
-        font-size: 14px;
+        font-size: 12px;
     }
     .final_display{
         margin-left: -6rem;
