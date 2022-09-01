@@ -654,10 +654,11 @@ footer{
     }
     .final_content{
         text-align: center;
+        margin-left: 2rem;
     }
     .footer_logo{
         width: 50%;
-        margin-bottom: 2rem;
+        margin-bottom: 1.25rem;
     }
     .footer_sub{
         color: var(--white-text);
