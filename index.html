@@ -15,13 +15,16 @@
         <img src="./assets/images/logo.svg" alt="nav_logo" class="nav_logo">
       </div>
       <img src="./assets/images/icon-hamburger.svg" alt="menu_icon" class="menu_icon">
+      <img src="./assets/images/icon-close.svg" alt="close_icon" class="close_icon">
       <div class="nav_menu">
-        <img src="./assets/images/icon-close.svg" alt="close_icon" class="close_icon">
         <div class="nav_links">
           <div class="dropdown">
             <a href="#" target="_blank" rel="noopener noreferrer" class="nav_link">
               Product 
-              <img src="./assets/images/icon-arrow-light.svg" alt="arrow_icon" class="arrow_light-icon">
+              <picture>
+                <source media="(min-width: 425px)" srcset="./assets/images/icon-arrow-light.svg">
+                <img src="./assets/images/icon-arrow-dark.svg" alt="hero_img" class="arrow_dark-icon">
+              </picture>
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Overview</a></li>
@@ -75,8 +78,10 @@
       </div> 
     </div>
   </header>
+
   <main class="main">
-    <h2 class="main_title">Designed for the future</h2> 
+    <h2 class="main_title">Designed for the future</h2>
+
     <section class="section intro">
       <div class="container intro_cont">
         <div class="intro_content content">
@@ -138,7 +143,9 @@
         </div>
       </div>
     </section>
+
   </main>
+  
   <footer class="footer">
     <div class="container footer_cont">
       <div class="footer_logo">
